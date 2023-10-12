@@ -24,7 +24,7 @@ We provide a folder for each method. The original code and data used to replicab
 
 - [LinearSVM](https://github.com/michaelfaerber/datarec)
 - [Bi-encoder](https://github.com/viswavi/datafinder/tree/main)
-   In [bi-encoder folder](Replicability/bi-encoder) Replicability/bi-encoder it is possible to find the qrels file used to run keyphrase queries.
+   In [bi-encoder folder](replicability/bi-encoder) Replicability/bi-encoder it is possible to find the qrels file used to run keyphrase queries.
 - [Ensemble CN](https://github.com/xuwang0010/datarecommend) The file PaperAuthorsAffiliations.hdt to run the experiments has been requested to the original authors and is different from the one provided in the repository.
 
 
