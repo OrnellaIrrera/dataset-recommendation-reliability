@@ -1,0 +1,7 @@
+numpy
+gensim==3.8.3
+tqdm
+rank_bm25==0.2.1
+networkx==2.5
+hdt==2.3
+sentence-transformers
