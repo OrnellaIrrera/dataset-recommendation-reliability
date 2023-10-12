@@ -8,5 +8,5 @@ We provided two folders:
 To run the keyphrase part, remember to use these qrels and test files.
 To evaluate the runs:
 
-``
+`trec_eval   -m map -m P -m recall  your_qrels.qrels your_run.trec `
 
