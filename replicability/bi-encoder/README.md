@@ -6,7 +6,7 @@ We provided two folders:
 - results : our replication runs
 
 To run the keyphrase part, remember to use these qrels and test files.
-To evaluate the runs:
+To evaluate the runs you can use trec_eval:
 
-`trec_eval   -m map -m P -m recall  your_qrels.qrels your_run.trec `
+`trec_eval -c  -m map -m P -m recall  your_qrels.qrels your_run.trec `
 
