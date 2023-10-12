@@ -17,3 +17,14 @@ This repository contains the code and data to replicate and generalize the follo
    Wang, X., van Harmelen, F., Cochez, M., & Huang, Z. (2022, July). Scientific item recommendation using a citation network. In International Conference on Knowledge Science, Engineering and Management (pp. 469-484). Cham: Springer International Publishing.
 
 
+
+### Replicability
+Replicability, same setup different team, consisted in running the three methods and investigate whether we were able to obtain the same results stated in the original papers.
+We provide a folder for each method. The original code and data used to replicability purposes is provided in the original papers' repositories, in particular:
+
+- [LinearSVM](https://github.com/michaelfaerber/datarec)
+- [Bi-encoder](https://github.com/viswavi/datafinder/tree/main)
+   In [bi-encoder folder](Replicability/bi-encoder) Replicability/bi-encoder it is possible to find the qrels file used to run keyphrase queries.
+- [Ensemble CN](https://github.com/xuwang0010/datarecommend) The file PaperAuthorsAffiliations.hdt to run the experiments has been requested to the original authors and is different from the one provided in the repository.
+
+
