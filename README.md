@@ -28,6 +28,6 @@ We provide a folder for each method. The original code and data used to replicab
 - [Ensemble CN](https://github.com/xuwang0010/datarecommend) The file PaperAuthorsAffiliations.hdt to run the experiments has been requested to the original authors and is different from the one provided in the repository.
 
 ### Generalizability
-Generalizability allowed us to investigate whether the three methods above are generalizable with other unseen datasets they are never tested with. In the [generalizability](generalizability) folder the code -- if different from those in the original repositories -- and our data are provided. 
+Generalizability allowed us to investigate whether the three methods above are generalizable with other unseen datasets they are never tested with. In the [generalizability](generalizability) folder the code -- if different from those in the original repositories -- and our data are provided together with the instructions to run each method.
 
 
