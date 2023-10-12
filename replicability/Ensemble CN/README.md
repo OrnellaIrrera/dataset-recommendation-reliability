@@ -17,4 +17,4 @@ Create and run container
 
 In `seeds_cands_filtered` we put for each experiment the seeds and cands taken from experiment 2 and 3 and used to replicate the experiments.
 
-In results we put both the entire set of results, hence one value of P,R,F1 for each seed, both the results combined, hence we combined the results for each seed and we combined them with the code available in the `results/combine_results.py`.
+In results we put both the entire set of results `results/full`, hence one value of P,R,F1 for each seed obtained as output, both the results combined `results/combined`, hence we combined the results for each seed and we combined them with the code available in the `results/compute_results.py`.
