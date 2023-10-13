@@ -156,7 +156,7 @@ pickle.dump(label_encoder, open('label_encoder_tfidf.sav', 'wb'))
 start = time.time()
 #Linear SVM: optimizing parameters with grid search
 print("SVM model evaluation")
-svm_dict = dict(estimator__C=[5,10,20,50,100])
+svm_dict = dict(estimator__C=[5,10,15,20,50,100])
 classifier_svm = RandomizedSearchCV(estimator=OneVsRestClassifier(LinearSVC()),
                                     param_distributions=svm_dict,
                                     n_iter=5, n_jobs=-1)
