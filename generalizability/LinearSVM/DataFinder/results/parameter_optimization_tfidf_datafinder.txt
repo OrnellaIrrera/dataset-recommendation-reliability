@@ -1,0 +1,2 @@
+tfidf Evaluation 
+Linear SVM: Best parameters {'estimator__C': 100}, reached score: 0.272445626137779 
